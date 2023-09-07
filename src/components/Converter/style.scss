@@ -1,0 +1,49 @@
+@use '../../styles/vars' as v;
+
+#root {
+  /*
+    on fixe la hauteur à 100vh
+    on supprime les barres de défilement
+    on se sert de `display: flex`
+      pour centrer horizontalement et verticalement les enfants
+  */
+  align-items: center;
+  background: v.$color-alt;
+  color: v.$color-light;
+  display: flex;
+  flex-direction: column;
+  font-family: v.$font-sans;
+  font-weight: 300;
+  height: 100vh;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.converter {
+  /*
+    on fixe la hauteur à 90 % de son parent
+    (il sera centré automatiquement grâce au flexbox appliqué sur son parent)
+    on se sert de `display: flex`
+      pour « empiler les enfants » en colonne
+  */
+  background: v.$color-light;
+  color: v.$color;
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  margin-bottom: 1rem;
+  max-width: 480px;
+  width: 90vw;
+}
+
+.currencies {
+  /*
+    `flex-grow` précise que l'élément prend toute la place disponible
+    du parent
+      sa hauteur sera automatiquement calculer en faisant :
+      la hauteur du parent - la hauteur des autres enfants
+    on permet le scroll
+  */
+  flex-grow: 1;
+  overflow-y: auto;
+}

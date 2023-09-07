@@ -1,0 +1,17 @@
+@use 'src/styles/vars' as v;
+
+.result {
+  padding: v.$gutter * 3;
+  text-align: center;
+
+  &-value {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: v.$gutter;
+  }
+
+  &-currency {
+    font-size: 1.5rem;
+  }
+}

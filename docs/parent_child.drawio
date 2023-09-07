@@ -1,0 +1,39 @@
+<mxfile host="65bd71144e">
+    <diagram id="0XWG84urXDB6JGljzon4" name="Page-1">
+        <mxGraphModel dx="870" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="7" style="edgeStyle=none;html=1;entryX=0.119;entryY=0;entryDx=0;entryDy=0;exitX=0.117;exitY=1.006;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;strokeWidth=4;" edge="1" parent="1" source="4" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;b&gt;Composant Parent&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=4;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="40" width="520" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;entryX=0.86;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=4;exitX=0.863;exitY=0.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5" target="4">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="607" y="390" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="5" value="&lt;b&gt;Composant Enfant&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=4;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="400" width="520" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Données&lt;br&gt;via les props" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="275" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;entryX=0.371;entryY=0;entryDx=0;entryDy=0;exitX=0.367;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;strokeWidth=4;" edge="1" parent="1" source="4" target="5">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="412.8399999999999" y="200.96000000000004" as="sourcePoint"/>
+                        <mxPoint x="413.8800000000001" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="Fonction pour modifier&lt;br&gt;ces données&lt;br&gt;via les props" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="265" width="130" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Appel de la fonction de modification&lt;br&gt;pour mettre à jour le state&lt;br&gt;du composant parent" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="265" width="200" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

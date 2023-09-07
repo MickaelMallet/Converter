@@ -1,0 +1,33 @@
+@use 'src/styles/vars' as v;
+
+.header {
+  background: v.$color;
+  color: v.$color-light;
+  padding: v.$gutter * 3;
+  text-align: center;
+
+  &-title { // .header-title
+    display: block;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: v.$gutter;
+  }
+
+  &-amount { // .header-amount
+    font-size: 1.3em;
+
+    &__input {
+      background: transparent;
+      border: 0;
+      border-bottom: 1px solid v.$color-light;
+      color: v.$color-light;
+      display: inline-block;
+      margin-right: 1rem;
+      width: 3rem;
+
+      &:focus {
+        outline: 0;
+      }
+    }
+  }
+}

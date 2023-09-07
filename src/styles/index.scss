@@ -1,0 +1,7 @@
+@use 'reset';
+@use 'fonts'; // importe nos propres fonts
+@use 'vars' as v;
+
+body {
+  font-family: v.$font-sans;
+}

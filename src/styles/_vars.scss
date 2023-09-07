@@ -1,0 +1,18 @@
+@use 'sass:color';
+
+$color: #bb5432;
+// on peut utiliser un module natif de Sass : `sass:color`
+// pour appliquer des modifications sur une couleur
+// ça nous permet de modifier le « thème » automatiquement
+// en ne modifiant que la couleur principale
+// https://sass-lang.com/documentation/modules/color
+$color-alt: color.scale($color, $lightness: 70%);
+$color-light: #fff;
+
+$font-sans: 'League Spartan', sans-serif;
+
+$gutter: 1rem;
+$list-item-height: 3rem;
+
+$delay-fast: .2s;
+$delay-slow: 1s;
